@@ -1,0 +1,38 @@
+.productsList {
+  padding: 50px 100px 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+
+  .notFoundCase {
+    font-size: 40px;
+  }
+}
+
+.searchWrapper {
+  padding: 0 100px;
+
+  .contentTitle {
+    font-size: 30px;
+    margin: 5px 0px;
+  }
+
+  input {
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  button {
+    margin-left: 50px;
+    padding: 10px 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    background-color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
